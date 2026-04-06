@@ -1,0 +1,46 @@
+{
+  "topics": {
+    "p0.p0-how-data-moves-across-a-network.osi-model": {
+      "title": "OSI model",
+      "summary": "Core foundation you should understand early. Category: How data moves across a network.",
+      "blocks": [
+        {
+          "id": "1775139473669-j0usqw",
+          "type": "heading",
+          "text": "1. Why Does the OSI Model Exist?",
+          "level": 4
+        },
+        {
+          "id": "1775139496341-14e3xo",
+          "type": "paragraph",
+          "text": "In the early days of networking, every vendor did things differently. IBM had its own networking architecture. So did Honeywell. So did DEC. If you bought hardware from one vendor, you were stuck with them. Their devices couldn't talk to anyone else's."
+        },
+        {
+          "id": "1775139786171-f4bdnm",
+          "type": "paragraph",
+          "text": "In 1984, the International Organization for Standardization (ISO) published the OSI model as a universal reference framework. The idea was straightforward: if everyone agrees on what each layer should do, different vendors can build products that actually work together."
+        },
+        {
+          "id": "1775139804619-raaab4",
+          "type": "paragraph",
+          "text": "The OSI model doesn't specify how to implement networking. It specifies what responsibilities each layer has. Think of it as a contract. Layer 3 promises to handle routing. Layer 4 promises to handle reliable delivery. As long as each layer keeps its promise, the whole system works, no matter who built the hardware or software."
+        },
+        {
+          "id": "1775139510490-gfhkbq",
+          "type": "image",
+          "url": "/uploads/1775139627280-screenshot-6.png",
+          "alt": "Seven Layers",
+          "caption": "Seven Layers of OSI"
+        },
+        {
+          "id": "1775139758801-m71i6h",
+          "type": "paragraph",
+          "text": "A popular mnemonic to remember the layers from bottom to top: Please Do Not Throw Sausage Pizza Away (Physical, Data Link, Network, Transport, Session, Presentation, Application).\n\nLet's go through each layer, starting from the bottom."
+        }
+      ],
+      "resources": [],
+      "topicId": "p0.p0-how-data-moves-across-a-network.osi-model",
+      "updatedAt": "2026-04-02T14:24:03.014Z"
+    }
+  }
+}
