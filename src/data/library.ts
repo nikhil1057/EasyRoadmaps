@@ -244,13 +244,13 @@ export const roadmaps: Roadmap[] = [
 ]
 
 export const plannedRoadmaps: PlannedRoadmap[] = [
-  {
-    id: 'dsa',
-    title: 'DSA',
-    summary: 'Patterns, problem sets, and step-by-step preparation for coding interviews.',
-    status: 'planned',
-  },
-]
+    {
+      id: 'dsa',
+      title: 'DSA',
+      summary: 'Data structures, algorithms, patterns, and guided interview practice.',
+      status: 'planned',
+    },
+  ]
 
 export function getRoadmapBySlug(slug: string) {
   return roadmaps.find((roadmap) => roadmap.slug === slug) ?? null

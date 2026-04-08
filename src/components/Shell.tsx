@@ -3,6 +3,7 @@ import { Link, NavLink, Outlet } from 'react-router-dom'
 import { Compass, LayoutDashboard, Layers, LogOut, Sparkles } from 'lucide-react'
 import clsx from 'clsx'
 import { useAuth } from '../auth/AuthContext'
+import { LogoMark } from './LogoMark'
 
 function TopNavLink({ to, children }: { to: string; children: ReactNode }) {
   return (
@@ -24,7 +25,7 @@ export function Shell() {
         <div className="container">
           <div className="flex items-center justify-between gap-4 py-4">
             <Link to="/" className="site-brand inline-flex items-center gap-3">
-              <span className="brand-stamp">ER</span>
+              <LogoMark />
               <span className="hidden font-display text-base font-semibold tracking-tight sm:block">
                 EasyRoadmaps
               </span>
@@ -80,7 +81,7 @@ export function Shell() {
         <div className="card site-footer-card px-6 py-6">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-3">
-              <span className="brand-stamp small">ER</span>
+              <LogoMark small />
               <div>
                 <div className="font-display text-sm font-semibold">EasyRoadmaps</div>
                 <div className="text-xs text-[color:var(--muted)]">
